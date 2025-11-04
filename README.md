@@ -3,7 +3,7 @@
 🛡️ A specialized cybersecurity agent for OpenCode that analyzes code for security vulnerabilities and provides clear explanations in plain English.
 
 [![OpenCode Agents](https://img.shields.io/badge/OpenCode-Agent-blue)](https://opencode.ai)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![License](https://img.shields.io/badge/License-GPL--3.0-blue.svg)](LICENSE)
 
 ## Overview
 
@@ -242,7 +242,7 @@ Contributions are welcome! Here's how you can help:
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details.
 
 ## 🔗 Links
 
