@@ -1,0 +1,41 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "agent": {
+    "plan-resume": {
+      "description": "Reviews AGENTS.md and README.md files, reads documentation before starting project work",
+      "mode": "subagent",
+      "model": "anthropic/claude-sonnet-4-20250514",
+      "temperature": 0.1,
+      "tools": {
+        "read": true,
+        "bash": false,
+        "edit": false,
+        "write": false
+      }
+    },
+    "close-out": {
+      "description": "Updates documentation files with current project information and creates necessary docs at session end",
+      "mode": "subagent",
+      "model": "anthropic/claude-sonnet-4-20250514",
+      "temperature": 0.1,
+      "tools": {
+        "read": true,
+        "write": true,
+        "edit": true,
+        "bash": false
+      }
+    },
+    "cybersecurity-critic": {
+      "description": "Vets code for security vulnerabilities, automatically fixes critical/high issues, prompts for medium/low fixes",
+      "mode": "subagent",
+      "model": "anthropic/claude-sonnet-4-20250514",
+      "temperature": 0.1,
+      "tools": {
+        "read": true,
+        "write": true,
+        "edit": true,
+        "bash": false
+      }
+    }
+  }
+}
