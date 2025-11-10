@@ -148,9 +148,6 @@ jobs:
 You can specify different models in the agent configuration:
 
 ```yaml
-model: anthropic/claude-haiku-4-20250514  # Faster, less expensive
-model: anthropic/claude-sonnet-4-20250514  # Balanced (recommended)
-model: anthropic/claude-opus-4-20250514   # Most capable
 ```
 
 ### Temperature Settings

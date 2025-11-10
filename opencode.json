@@ -4,7 +4,6 @@
     "plan-resume": {
       "description": "Reviews AGENTS.md and README.md files, reads documentation before starting project work",
       "mode": "subagent",
-      "model": "anthropic/claude-sonnet-4-20250514",
       "temperature": 0.1,
       "tools": {
         "read": true,
@@ -16,7 +15,6 @@
     "close-out": {
       "description": "Updates documentation files with current project information and creates necessary docs at session end",
       "mode": "subagent",
-      "model": "anthropic/claude-sonnet-4-20250514",
       "temperature": 0.1,
       "tools": {
         "read": true,
@@ -28,7 +26,6 @@
     "security-critic": {
       "description": "Performs comprehensive cybersecurity analysis and identifies vulnerabilities with plain English explanations",
       "mode": "subagent",
-      "model": "anthropic/claude-sonnet-4-20250514",
       "temperature": 0.1,
       "tools": {
         "read": true,
